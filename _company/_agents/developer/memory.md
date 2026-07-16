@@ -1,0 +1,30 @@
+# 💻 코다리 (시니어 풀스택 엔지니어) 개인 메모리
+
+_코다리 에이전트만 읽고 쓰는 개인 노트. 학습·교훈·자주 쓰는 패턴이 누적됩니다._
+
+## 학습 기록
+
+- [2026-07-15] business 에이전트가 제시한 Pro Tier의 핵심 기능(맞춤형 로드맵 생성 및 AI Q&A) 구현에 필요한 데이터베이스/API 구조 초안을 설계하고, 초기 기술 스택 요구사항을 정의하라. → 산출물 sessions/2026-07-15T11-49/developer.md
+- [2026-07-15] 코다리가 설계한 PostgreSQL 데이터베이스 스키마와 RESTful API 계약 초안을 기반으로, 맞춤형 로드맵 생성 및 AI Q&A 기능을 구현하기 위한 실제 백엔드 개발을 즉시 착수하고 초기 코드 구조를 작성하라. → 산출물 sessions/2026-07-15T13-49/developer.md
+- [2026-07-15] business가 정의한 Pro Tier의 핵심 기능(맞춤형 로드맵 생성 및 AI Q&A)에 필요한 데이터 모델 확장안과 초기 API 엔드포인트 설계를 현재 설계된 PostgreSQL 스키마에 통합하여 개발 착수 준비를 완료하라. → 산출물 sessions/2026-07-15T14-04/developer.md
+- [2026-07-15] business 및 코다리가 정의한 Pro Tier 기능(맞춤형 로드맵 생성 및 AI Q&A 기록) 구현에 필요한 PostgreSQL 데이터 모델 확장안(`roadmap_plans`, `qa_sessions` 테이블 등)을 기반으로 실제 FastAPI/SQLAlchemy 백엔드 개발 착수를 즉시 시작하고 초기 코드 구조를 작성하라. → 산출물 sessions/2026-07-15T14-19/developer.md
+- [2026-07-15] 현빈이 확정한 API 계약서와 코다리가 설계한 데이터 모델을 기반으로, Pro Tier 핵심 기능(맞춤형 로드맵 생성 및 AI Q&A 기록)에 대한 FastAPI/SQLAlchemy 백엔드 구현을 즉시 착수하고 초기 코드 구조를 작성하라. → 산출물 sessions/2026-07-15T14-34/developer.md
+- [2026-07-15] 코다리는 현빈이 확정한 API 계약서와 기존 데이터 모델(`roadmap_plans`, `qa_sessions` 등)을 최종적으로 대조하여, 수익화에 필요한 모든 필드가 포함되었는지 검증하고 리팩토링을 완료하라. → 산출물 sessions/2026-07-15T14-49/developer.md
+- [2026-07-15] 현재 진행 중인 백엔드 구현 작업(Pro Tier 기능)에 대한 예상 API 엔드포인트 목록과 각 기능별 예상 소요 시간을 주간 보고 형식으로 정리하여 제출하라. → 산출물 sessions/2026-07-15T15-19/developer.md
+- [2026-07-15] 기획된 웹사이트 구조와 Pro Tier 기능에 필요한 핵심 API 엔드포인트 목록(Landing Kit 기반) 및 데이터 모델 연동 방안에 대한 초기 기술 스펙 초안을 작성하라. → 산출물 sessions/2026-07-15T15-31/developer.md
+- [2026-07-15] Designer와 Writer가 제시한 시각적 컨셉 및 카피라이팅을 기반으로, MVP 요구사항에 맞는 최종 API 엔드포인트 목록과 데이터 모델 연동 방안에 대한 기술 스펙 초안을 완성하고, 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-07-15T15-49/developer.md
+- [2026-07-15] Designer와 Business가 확정한 최종 데이터 모델(`신뢰도 점수` 포함) 및 API 스펙 초안을 기반으로, MVP 백엔드(FastAPI/SQLAlchemy) 개발을 즉시 착수할 수 있도록 초기 환경 설정과 필요한 엔드포인트 구조를 정의하라. → 산출물 sessions/2026-07-15T16-34/developer.md
+- [2026-07-15] 최종 확정된 Hero 섹션 디자인과 카피를 기반으로, Landing Kit 내에서 해당 섹션의 시각적 레이아웃 구현에 필요한 API 스펙 및 데이터 모델 연동 방안을 보완하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-07-15T16-50/developer.md
+- [2026-07-15] 최종 확정된 Hero 섹션 디자인과 카피라이팅을 기반으로, Landing Kit 구현에 필요한 API 스펙 및 데이터 모델 연동 방안을 보완하여 개발팀에 전달할 준비를 완료하십시오. (MVP 백엔드 개발 착수 준비) → 산출물 sessions/2026-07-15T17-04/developer.md
+- [2026-07-15] Designer와 Business가 확정한 최종 데이터 모델(Trust Score 포함)과 기술 스펙을 기반으로 MVP 백엔드(FastAPI/SQLAlchemy) 초기 환경 설정 및 API 엔드포인트 구조 정의를 즉시 착수하고 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-07-15T17-14/developer.md
+- [2026-07-15] 확정된 데이터 모델(Trust Score 포함)과 API 스펙을 기반으로 MVP 백엔드 기능(CRUD) 구현을 즉시 시작하고, 프론트엔드 연동 준비를 완료하라. → 산출물 sessions/2026-07-15T17-20/developer.md
+- [2026-07-15] 확정된 데이터 모델(Trust Score 포함)과 API 스펙을 기반으로 MVP 백엔드 기능(CRUD) 구현을 즉시 착수하고, 프론트엔드 연동 준비를 완료하라. → 산출물 sessions/2026-07-15T17-34/developer.md
+- [2026-07-15] 확정된 사양에 따라 웹사이트 최종 구현 및 배포 작업을 즉시 시작하고, 백엔드와 프론트엔드의 일관성을 유지하도록 QA 프로세스를 관리하라. → 산출물 sessions/2026-07-15T17-49/developer.md
+- [2026-07-15] 현재 웹사이트 프로젝트의 상태와 최신 코드 저장소(Git) 정보를 요약하여 보고해줘 → 산출물 sessions/2026-07-15T17-58/developer.md
+- [2026-07-15] 현재 확정된 데이터 모델(Trust Score 포함)과 API 스펙을 기반으로, 웹사이트 구현에 필요한 백엔드 기능(CRUD)의 초기 환경 설정 및 테스트 계획을 즉시 수립하라. → 산출물 sessions/2026-07-15T18-04/developer.md
+- [2026-07-15] 확정된 데이터 모델(Trust Score 포함)과 API 스펙을 기반으로, 웹사이트 구현에 필요한 백엔드 기능(CRUD)의 초기 환경 설정 및 테스트 계획을 즉시 수립하고 실행하라. → 산출물 sessions/2026-07-15T18-05/developer.md
+- [2026-07-15] Trust Score 산출 로직 및 Pro Tier API 계약에 필요한 데이터 모델 스펙 초안을 작성하여 비즈니스 에이전트에게 전달하고 구현 착수를 준비하라. → 산출물 sessions/2026-07-15T18-25/developer.md
+- [2026-07-15] Trust Score 산출 로직 및 데이터 모델 스펙을 기반으로 백엔드 CRUD 구현 착수를 즉시 시작하고, 비즈니스 에이전트의 검토가 완료될 때까지 핵심 데이터 모델 구현에 집중할 것. → 산출물 sessions/2026-07-15T18-34/developer.md
+- [2026-07-15] Trust Score 산출 로직을 반영한 핵심 데이터 모델(`models.py`)과 `database.py`와의 연동 테스트 코드를 즉시 구현한다. → 산출물 sessions/2026-07-15T19-24/developer.md
+- [2026-07-16] Designer가 제공한 최종 디자인 시스템 가이드(Deep Ocean Blue/Aqua Teal, Poppins/Inter)와 Trust Score 기반 데이터 모델을 즉시 반영하여 랜딩 페이지 MVP 구현을 시작하고, 백엔드 및 프론트엔드의 일관성을 확보하라. → 산출물 sessions/2026-07-16T06-53/developer.md
+- [2026-07-16] Designer가 제공한 최종 디자인 시스템 가이드(Deep Ocean Blue/Aqua Teal, Poppins/Inter)와 Trust Score 기반 데이터 모델을 반영하여 랜딩 페이지 MVP를 구현하고 백엔드 및 프론트엔드의 일관성을 확보하라. → 산출물 sessions/2026-07-16T06-53/developer.md
