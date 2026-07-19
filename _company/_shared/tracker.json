@@ -120,6 +120,74 @@
       "sessionDir": "2026-07-16T07-36",
       "evidence": "완료: sessions/2026-07-16T07-36/_report.md\n- 코다리: 이전 세션에서 발생한 파일 시스템 경로 오류(`No such file or directory`)의 근본 원인을 즉시 진단하고, 웹사이트 MVP \n- 영숙: 개발팀의 파일 시스템 환경 설정 및 코드 재개 작업 진행 상황을 실시간으로 모니터링하고, 병목 현상이 해소되어 개발 흐름이 확보될 때까지 모든 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 이전 세션에서 발생한 파일 시스템 경로 오류(`No such file or directory`)의 근본 원인을 즉시 진단하고, 웹사이트 MVP 구현을 재개하기 위해 모든 파일 시스템 환경 설정 및 경로 안정성을 최우선으로 확보하십시오. 필요한",
       "completedAt": "2026-07-16T07:40:14.029Z"
+    },
+    {
+      "id": "20260717231707-01gx",
+      "title": "**Color Palette:** Deep Ocean Blue와 Aqua Teal이 시스템 전반에 걸쳐 일관되게 사용되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-17T23:17:07.481Z",
+      "status": "done",
+      "sessionDir": "2026-07-17T23-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-17T23-13/_report.md\n- 현빈: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n- 코다리: Trust Score Gauge API 명세 및 DB 연동 로직이 Designer가 제시한 디자인 사양을 100% 만족하는지 최종 검토하고, 개\n- Designer: 확정된 일정 내에 프론트엔드 개발에 필요한 UI/UX 요구사항(Design Spec)을 명확히 정리하여, Developer와 통합 검증 회의를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집",
+      "completedAt": "2026-07-17T23:17:57.818Z"
+    },
+    {
+      "id": "20260717231707-baqh",
+      "title": "**Trust Score Visualization:** 전체 점수(원형)와 세부 항목(바 차트)의 동적 색상 매핑 로직이 백엔드 데이터(`breakdown_scores`)를 정확히 반영하는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-17T23:17:07.483Z",
+      "status": "done",
+      "sessionDir": "2026-07-17T23-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-17T23-13/_report.md\n- 현빈: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n- 코다리: Trust Score Gauge API 명세 및 DB 연동 로직이 Designer가 제시한 디자인 사양을 100% 만족하는지 최종 검토하고, 개\n- Designer: 확정된 일정 내에 프론트엔드 개발에 필요한 UI/UX 요구사항(Design Spec)을 명확히 정리하여, Developer와 통합 검증 회의를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집",
+      "completedAt": "2026-07-17T23:17:57.818Z"
+    },
+    {
+      "id": "20260717231707-d40m",
+      "title": "**Roadmap Flow:** 단계별 의존성(Dependency) 기반의 잠금/활성화 상태 표시 로직이 DB 관계를 정확히 따르는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-17T23:17:07.483Z",
+      "status": "done",
+      "sessionDir": "2026-07-17T23-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-17T23-13/_report.md\n- 현빈: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n- 코다리: Trust Score Gauge API 명세 및 DB 연동 로직이 Designer가 제시한 디자인 사양을 100% 만족하는지 최종 검토하고, 개\n- Designer: 확정된 일정 내에 프론트엔드 개발에 필요한 UI/UX 요구사항(Design Spec)을 명확히 정리하여, Developer와 통합 검증 회의를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집",
+      "completedAt": "2026-07-17T23:17:57.819Z"
+    },
+    {
+      "id": "20260717231707-a9t6",
+      "title": "**Data Contract:** 백엔드 API(`POST /trustscore`, `GET /qa_history`)의 반환 데이터 구조가 프론트엔드의 시각화 요구사항을 100% 충족하는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-07-17T23:17:07.484Z",
+      "status": "done",
+      "sessionDir": "2026-07-17T23-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-17T23-13/_report.md\n- 현빈: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n- 코다리: Trust Score Gauge API 명세 및 DB 연동 로직이 Designer가 제시한 디자인 사양을 100% 만족하는지 최종 검토하고, 개\n- Designer: 확정된 일정 내에 프론트엔드 개발에 필요한 UI/UX 요구사항(Design Spec)을 명확히 정리하여, Developer와 통합 검증 회의를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 기능 구현 최종 일정에 대한 이해관계자 합의를 도출하는 데 필요한 수익화 전략 및 KPI 연계 실행 계획 초안을 재검토하고 보강하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집",
+      "completedAt": "2026-07-17T23:17:57.820Z"
     }
   ]
 }
