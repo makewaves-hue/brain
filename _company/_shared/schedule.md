@@ -1,31 +1,32 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 7. 19. 오전 11:21:28_
+_업데이트: 2026. 7. 20. 오후 10:15:33_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
 - [2026-07-16] 수익화 목표 달성을 위해 외국인들이 겪는 불편함에 대한 리딧/유튜브 트렌드 분석을 재실행하고, 사이트 콘텐츠에 반영할 구체적인 주제와 후크 아이디어를 수집하라. → 산출물 sessions/2026-07-16T13-25/youtube.md
+- [2026-07-19] Writer가 작성한 카피라이팅 초안과 Business의 전략을 기반으로, 외국인들이 한국 생활에서 겪는 불편함과 Trust Score Gauge의 해결책을 연결하는 영상 아이디어 3가지와 각 영상에 최적화된 제목 및 썸네일 콘셉트(Designer에게 전달할 브리프 포함)를 기획하라. → 산출물 sessions/2026-07-19T11-39/youtube.md
 ### 🎨 Designer
-- [2026-07-19] 최종 확정된 디자인 사양을 기반으로 Trust Score Gauge 컴포넌트(`TrustScoreGauge.tsx`) 구현을 시작하여 백엔드 연동을 준비하라. → 산출물 sessions/2026-07-19T00-50/designer.md
-- [2026-07-19] 확정된 디자인 사양을 기반으로 Trust Score Gauge 컴포넌트(`TrustScoreGauge.tsx`)의 UI/UX 구현을 병행하여 기술적 정합성을 확보하라. → 산출물 sessions/2026-07-19T01-05/designer.md
-- [2026-07-19] 코다리가 제공할 데이터 바인딩과 비즈니스 요구사항에 맞춰 Trust Score Gauge 컴포넌트(`TrustScoreGauge.tsx`)의 UI/UX 구현에서 발생할 수 있는 모든 기술적 제약을 사전에 검토하고, 디자인 정합성을 확보하는 작업에 집중하라. → 산출물 sessions/2026-07-19T01-20/designer.md
+- [2026-07-19] Writer가 확정한 최종 카피를 기반으로, $19.99와 $49.99 가격 티어를 시각적으로 명확히 구분하고 Trust Score Gauge 컴포넌트의 최종 Mockup 또는 랜딩 페이지 레이아웃 스펙을 즉시 구현하라. → 산출물 sessions/2026-07-19T12-09/designer.md
+- [2026-07-19] Writer가 확정한 최종 카피와 가격 티어 전략($19.99 / $49.99)을 기반으로, Trust Score Gauge 컴포넌트의 최종 Mockup 또는 랜딩 페이지 레이아웃 스펙을 실제 구현 가능한 형태로 즉시 완성하라. → 산출물 sessions/2026-07-19T12-24/designer.md
+- [2026-07-20] 현빈이 제시한 신뢰 보장 가치와 $19.99/$49.99 가격 티어를 반영하여, Trust Score Gauge 컴포넌트의 최종 Mockup 및 랜딩 페이지 레이아웃을 즉시 구현하라. → 산출물 sessions/2026-07-20T12-30/designer.md
 ### 💻 코다리
-- [2026-07-19] Trust Score Gauge 핵심 기능(점수 계산 및 저장) API 구현에 즉시 착수하고, MVP 출시를 위한 기술적 리소스를 확보하라. → 산출물 sessions/2026-07-19T01-05/developer.md
-- [2026-07-19] Business에서 확정된 MVP KPI와 기능 범위를 기반으로 백엔드 API 구현의 우선순위와 기술적 실행 계획을 수립하여 제출하라. → 산출물 sessions/2026-07-19T01-20/developer.md
-- [2026-07-19] Trust Score Gauge 관련 API 스키마 및 응답 형식을 즉시 제공하여 Designer가 UI/UX 구현을 시작할 수 있도록 한다. → 산출물 sessions/2026-07-19T01-35/developer.md
+- [2026-07-19] Risk Mitigation Plan 기능 및 Hyper-Local Service Navigator의 API/데이터 모델 구현 우선순위를 최종 확정하고, Designer가 제시한 UI/UX 흐름에 맞춰 필요한 백엔드 엔드포인트와 데이터 구조를 즉시 구현할 수 있도록 코드를 준비하라. → 산출물 sessions/2026-07-19T08-54/developer.md
+- [2026-07-19] Designer가 제시한 Trust Score Gauge의 최종 UI/UX 흐름과 디자인 시스템(Deep Ocean Blue, Aqua Teal)을 기반으로, SQLAlchemy 모델 정의 및 백엔드 API 구조를 즉시 구현하고 프론트엔드 컴포넌트 개발을 시작하라. → 산출물 sessions/2026-07-19T12-24/developer.md
+- [2026-07-20] Pain Point 1(불확실성 해소)과 Pain Point 3(디지털 행정 복잡성)에 대응하는 'Risk Mitigation Plan' 기능의 최소 엔티티 및 알고리즘 명세를 구체화하여 개발 착수 준비를 완료하라. → 산출물 sessions/2026-07-20T12-30/developer.md
 ### 💼 현빈
-- [2026-07-19] Trust Score Gauge의 MVP 출시 실행 계획(KPI, 가격 책정, 기능 범위)을 최종적으로 확정하고, 개발팀(developer/designer)이 다음 단계에 착수할 수 있도록 명확한 비즈니스 요구사항 문서를 정리하라. → 산출물 sessions/2026-07-19T00-35/business.md
-- [2026-07-19] Trust Score Gauge Pro Tier의 최종 KPI와 MVP 출시 실행 계획(가격 책정, 기능 범위)을 코다리(developer) 및 Lead Designer에게 공식적으로 전달하고 다음 마일스톤에 대한 개발 착수를 요청하라. → 산출물 sessions/2026-07-19T01-20/business.md
-- [2026-07-19] Trust Score Gauge Pro Tier의 최종 KPI, 가격($39.99), 기능 범위 및 MVP 출시 실행 계획을 최종적으로 문서화하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-07-19T02-04/business.md
+- [2026-07-20] 최근 데이터와 목표를 바탕으로 현재 가장 가치 있는 단일 작업과 그 실행 계획을 재검토하여 오늘 집중할 핵심 우선순위 3가지를 결정하고, 각 작업에 대한 책임 에이전트를 할당하라. → 산출물 sessions/2026-07-20T11-23/business.md
+- [2026-07-20] 우선순위 1(경쟁사 ROI 분석)의 초기 데이터를 수집하고, 가격 전략($19.99/$49.99)가 시장에서 현실적인지 검증하기 위한 초기 데이터 요청을 준비하라. → 산출물 sessions/2026-07-20T11-25/business.md
+- [2026-07-20] Researcher가 도출한 Pain Point 및 후크 아이디어를 기반으로, Trust Score Gauge 솔루션의 수익화 가설을 재검토하고, $19.99/$49.99 가격 티어 전략과 연계하여 가장 높은 WTP(Willingness to Pay)를 유도할 수 있는 핵심 마케팅 메시지와 KPI 초안을 제시하라. → 산출물 sessions/2026-07-20T12-15/business.md
 ### 📱 영숙
-- [2026-07-19] 개발 및 디자인 팀의 현재 진행 상황과 비즈니스 목표 간의 정합성을 점검하고, MVP 출시를 위한 다음 주 핵심 마일스톤 일정을 조율하여 개발 착수를 준비하라. → 산출물 sessions/2026-07-19T00-35/secretary.md
-- [2026-07-19] 코다리(developer) 및 디자이너에게 확정된 마일스톤과 산출물을 전달하고 개발 Kickoff 회의 일정을 조율하여 즉시 착수를 요청하라. → 산출물 sessions/2026-07-19T00-50/secretary.md
-- [2026-07-19] 개발팀(developer, designer)에게 공식적인 Kickoff 회의 일정을 조율하고 필요한 모든 산출물(KPI, 디자인 사양)을 전달하기 위한 연락 메시지 초안을 작성하라. → 산출물 sessions/2026-07-19T02-04/secretary.md
+- [2026-07-20] 최근 일정과 메모리를 확인하여 '가장 가치 있는 작업' 결정을 위한 필수 데이터를 제공하라. → 산출물 sessions/2026-07-20T11-10/secretary.md
+- [2026-07-20] 오늘의 핵심 우선순위에 따라 모든 에이전트(youtube, designer, developer 등)에게 필요한 데이터와 진행 상황을 정리하여 보고할 준비를 하라. → 산출물 sessions/2026-07-20T11-23/secretary.md
+- [2026-07-20] 다음 작업 분배 계획(우선순위 1, 2, 3)을 바탕으로, 오늘 하루의 시간 배분 및 각 에이전트에게 할당할 구체적인 마일스톤 일정을 수립하고 보고하라. → 산출물 sessions/2026-07-20T11-25/secretary.md
 ### ✍️ Writer
-- [2026-07-16] Business팀이 확정한 가격 전략 및 핵심 가치(Trust Score)를 기반으로, 가장 강력한 헤드라인과 랜딩 페이지 본문의 초안을 작성하라. → 산출물 sessions/2026-07-16T18-40/writer.md
-- [2026-07-17] 최종 확정된 Trust Score 기반 카피(옵션 2)와 시각화 요소를 기반으로, Landing Kit의 핵심 메시지가 명확하게 전달되도록 마케팅 자료 초안을 정리하라. → 산출물 sessions/2026-07-17T07-00/writer.md
-- [2026-07-17] Researcher가 도출한 트렌드와 문제점을 기반으로, 잠재 고객의 흥미를 유발할 수 있는 구체적인 콘텐츠 후크(Hook) 아이디어 5가지와 블로그/영상 스크립트 초안을 작성해줘. → 산출물 sessions/2026-07-17T10-32/writer.md
+- [2026-07-19] business 에이전트가 제시한 수익화 전략 및 시장 수요 분석을 바탕으로, 'Hyper-Local Service Navigator'에 대한 외국인 타깃의 Pain Point를 극대화하고 행동을 유도하는 핵심 카피라이팅(후크, 본문, CTA) 초안 5가지와 블로그 포스트 구조를 작성하라. → 산출물 sessions/2026-07-19T11-39/writer.md
+- [2026-07-19] Trust Score Gauge의 $19.99 / $49.99 가격 티어 분리 전략에 맞춰, '안전(Fear)'과 '시간 절약(Efficiency)' 감정을 극대화하는 Copy Set 1과 Copy Set 2를 기반으로 랜딩 페이지의 핵심 문구(헤드라인, USP)를 최종 확정하고 완성하라. → 산출물 sessions/2026-07-19T11-54/writer.md
+- [2026-07-19] Writer가 확정한 Copy Set 1과 2를 기반으로, $19.99 티어와 $49.99 티어를 명확히 구분하며 '안전(Fear)' 및 '효율성(Efficiency)' 감정을 극대화하는 랜딩 페이지의 핵심 헤드라인(H1), 섹션별 소제목, 그리고 본문 카피라이팅 초안을 작성하라. → 산출물 sessions/2026-07-19T12-09/writer.md
 ### 🔍 Researcher
-- [2026-07-17] Reddit과 YouTube에서 외국인들이 한국 생활 중 겪는 불편함에 대한 최신 트렌드 및 구체적인 문제점 목록을 수집하고, 잠재적 수익화 주제를 도출해줘. → 산출물 sessions/2026-07-17T10-32/researcher.md
-- [2026-07-18] 외국인들이 한국에서 겪는 불편함에 대한 리딧 및 유튜브 트렌드를 재분석하여, 'Trust Score Gauge'가 해결할 수 있는 가장 시급하고 수익화 잠재력이 높은 구체적인 주제 3가지를 리서치하고 정리하라. → 산출물 sessions/2026-07-18T04-02/researcher.md
-- [2026-07-18] 외국인 대상 불편함 리딧/유튜브 분석 결과와 최종 확정된 Pro Tier의 가치 제안(Value Proposition)이 시장에서 경쟁 우위를 갖는지에 대한 최종 검증 데이터를 수집 및 요약하라. → 산출물 sessions/2026-07-18T06-35/researcher.md
+- [2026-07-20] 경쟁사 ROI 분석에 필요한 초기 시장 데이터(경쟁사 가격 정보, 잠재 시장 규모 등) 수집 계획을 수립하고, 이 데이터를 확보하기 위한 구체적인 리서치 키워드를 제안하라. → 산출물 sessions/2026-07-20T11-25/researcher.md
+- [2026-07-20] 이전에 제안된 리서치 키워드(외국인들이 한국 생활에서 겪는 불편함)를 기반으로 Reddit 및 YouTube에서 초기 Pain Point 데이터를 수집하고 정리하여, 수익화 가설 검증을 위한 핵심 데이터셋을 구축하라. → 산출물 sessions/2026-07-20T11-40/researcher.md
+- [2026-07-20] 최근 활동 로그에 언급된 경쟁사(레오, 디자이너)의 콘텐츠에서 '일상 서비스', '언어 및 소통', '교통 및 이동', '디지털 행정' 카테고리별 트렌드를 교차 분석하고, 이 중 가장 높은 잠재력을 가진 Pain Point 3가지와 각 Pain Point에 대한 구체적인 후크 아이디어를 도출하여 보고하라. → 산출물 sessions/2026-07-20T12-15/researcher.md
 

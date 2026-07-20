@@ -1,0 +1,1 @@
+# Trust Score Gauge 최종 디자인 스펙
